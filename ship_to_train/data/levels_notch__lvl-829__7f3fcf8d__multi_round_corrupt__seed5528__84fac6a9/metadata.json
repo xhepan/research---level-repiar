@@ -1,0 +1,125 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-829__7f3fcf8d.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5528,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 23
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      41,
+      14
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      114,
+      15
+    ],
+    [
+      169,
+      12
+    ],
+    [
+      65,
+      13
+    ],
+    [
+      64,
+      11
+    ],
+    [
+      157,
+      12
+    ],
+    [
+      59,
+      13
+    ],
+    [
+      190,
+      12
+    ],
+    [
+      126,
+      12
+    ],
+    [
+      97,
+      15
+    ],
+    [
+      105,
+      15
+    ],
+    [
+      59,
+      11
+    ],
+    [
+      137,
+      13
+    ],
+    [
+      29,
+      12
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      130,
+      12
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      98,
+      15
+    ],
+    [
+      101,
+      14
+    ],
+    [
+      142,
+      13
+    ],
+    [
+      143,
+      13
+    ],
+    [
+      97,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 23,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 23
+      }
+    ]
+  }
+}

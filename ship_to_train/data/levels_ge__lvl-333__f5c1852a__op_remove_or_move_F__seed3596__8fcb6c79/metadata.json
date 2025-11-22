@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-333__f5c1852a.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3596,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 70
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 139
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 123
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-542__7ebd53ca.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5449,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 67
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 140
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 44
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      149,
+      12
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

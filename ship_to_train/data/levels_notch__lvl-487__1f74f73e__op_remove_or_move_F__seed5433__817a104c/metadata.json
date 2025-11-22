@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-487__1f74f73e.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5433,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 25
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 87
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 117
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      144,
+      13
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

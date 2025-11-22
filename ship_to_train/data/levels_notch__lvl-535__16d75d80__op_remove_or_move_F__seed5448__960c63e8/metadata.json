@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-535__16d75d80.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5448,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 42
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 50
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 90
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      152,
+      14
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

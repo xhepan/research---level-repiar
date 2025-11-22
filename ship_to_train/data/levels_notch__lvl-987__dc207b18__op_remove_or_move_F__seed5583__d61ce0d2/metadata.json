@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-987__dc207b18.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5583,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 54
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 23
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 23
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      147,
+      15
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

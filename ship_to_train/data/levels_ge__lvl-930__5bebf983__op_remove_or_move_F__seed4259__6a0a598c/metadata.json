@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-930__5bebf983.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 4259,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 102
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 46
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 81
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

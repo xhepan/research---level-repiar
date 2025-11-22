@@ -1,0 +1,57 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-542__7ebd53ca.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3828,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 32
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 149
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 58
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-777__16fcd3c1.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 4088,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 0
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 61
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 27
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      88,
+      15
+    ],
+    [
+      92,
+      15
+    ],
+    [
+      29,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      45,
+      15
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      94,
+      15
+    ],
+    [
+      137,
+      15
+    ],
+    [
+      54,
+      15
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      83,
+      15
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      108,
+      15
+    ],
+    [
+      42,
+      15
+    ],
+    [
+      103,
+      15
+    ],
+    [
+      178,
+      15
+    ],
+    [
+      152,
+      15
+    ],
+    [
+      102,
+      15
+    ],
+    [
+      21,
+      15
+    ],
+    [
+      183,
+      15
+    ],
+    [
+      192,
+      15
+    ],
+    [
+      76,
+      15
+    ],
+    [
+      166,
+      15
+    ],
+    [
+      101,
+      15
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      197,
+      15
+    ],
+    [
+      36,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 1,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_identical",
+        "k": 27,
+        "details": {
+          "tile": "X"
+        },
+        "edits_applied": 27
+      }
+    ]
+  }
+}

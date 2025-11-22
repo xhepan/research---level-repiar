@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-296__baf00f83.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3554,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 40
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 81
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 3,
+        "edits": 48
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

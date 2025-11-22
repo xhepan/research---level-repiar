@@ -1,0 +1,131 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-110__bb35b298.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 4349,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 197
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 21
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      146,
+      12
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      157,
+      10
+    ],
+    [
+      109,
+      12
+    ],
+    [
+      64,
+      15
+    ],
+    [
+      108,
+      12
+    ],
+    [
+      79,
+      15
+    ],
+    [
+      162,
+      10
+    ],
+    [
+      115,
+      11
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      35,
+      13
+    ],
+    [
+      120,
+      15
+    ],
+    [
+      172,
+      14
+    ],
+    [
+      155,
+      10
+    ],
+    [
+      53,
+      13
+    ],
+    [
+      39,
+      10
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      86,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      100,
+      12
+    ],
+    [
+      44,
+      13
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 33,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 21,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 21
+      }
+    ]
+  }
+}

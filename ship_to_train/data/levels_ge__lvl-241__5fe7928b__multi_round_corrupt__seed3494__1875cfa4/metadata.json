@@ -1,0 +1,116 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-241__5fe7928b.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3494,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 142
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 19
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      31,
+      15
+    ],
+    [
+      46,
+      12
+    ],
+    [
+      132,
+      14
+    ],
+    [
+      143,
+      15
+    ],
+    [
+      153,
+      10
+    ],
+    [
+      30,
+      11
+    ],
+    [
+      30,
+      15
+    ],
+    [
+      43,
+      12
+    ],
+    [
+      37,
+      12
+    ],
+    [
+      149,
+      11
+    ],
+    [
+      121,
+      14
+    ],
+    [
+      167,
+      11
+    ],
+    [
+      101,
+      12
+    ],
+    [
+      187,
+      15
+    ],
+    [
+      168,
+      15
+    ],
+    [
+      98,
+      10
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      99,
+      8
+    ],
+    [
+      50,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 19,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 19
+      }
+    ]
+  }
+}

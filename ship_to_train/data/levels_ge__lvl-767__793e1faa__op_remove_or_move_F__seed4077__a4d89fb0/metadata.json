@@ -1,0 +1,21 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-767__793e1faa.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 3,
+  "seed": 4077,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      197,
+      14
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

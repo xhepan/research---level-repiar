@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-720__13aa5a8a.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5026,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 123
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 62
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 47
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      197,
+      12
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

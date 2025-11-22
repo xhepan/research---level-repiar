@@ -1,0 +1,139 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-774__aeeab3d4.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 4085,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 64
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 0
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 23
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      181,
+      8
+    ],
+    [
+      182,
+      8
+    ],
+    [
+      183,
+      8
+    ],
+    [
+      184,
+      8
+    ],
+    [
+      185,
+      8
+    ],
+    [
+      63,
+      2
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      62,
+      12
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      31,
+      13
+    ],
+    [
+      78,
+      7
+    ],
+    [
+      52,
+      2
+    ],
+    [
+      176,
+      10
+    ],
+    [
+      2,
+      14
+    ],
+    [
+      186,
+      9
+    ],
+    [
+      122,
+      6
+    ],
+    [
+      150,
+      9
+    ],
+    [
+      55,
+      3
+    ],
+    [
+      58,
+      2
+    ],
+    [
+      171,
+      3
+    ],
+    [
+      55,
+      2
+    ],
+    [
+      88,
+      8
+    ],
+    [
+      90,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 1,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_run_h",
+        "k": 23,
+        "details": {
+          "run_len": 5
+        },
+        "edits_applied": 23
+      }
+    ]
+  }
+}

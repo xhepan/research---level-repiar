@@ -1,0 +1,21 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-989__20040c1e.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 4,
+  "seed": 5323,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      193,
+      14
+    ],
+    [
+      193,
+      13
+    ],
+    [
+      193,
+      13
+    ]
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-41__a407c0b6.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5415,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 35
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      1,
+      15
+    ],
+    [
+      93,
+      13
+    ],
+    [
+      16,
+      13
+    ],
+    [
+      37,
+      15
+    ],
+    [
+      77,
+      14
+    ],
+    [
+      154,
+      12
+    ],
+    [
+      83,
+      15
+    ],
+    [
+      55,
+      14
+    ],
+    [
+      165,
+      12
+    ],
+    [
+      151,
+      12
+    ],
+    [
+      104,
+      15
+    ],
+    [
+      27,
+      13
+    ],
+    [
+      156,
+      12
+    ],
+    [
+      76,
+      15
+    ],
+    [
+      178,
+      12
+    ],
+    [
+      67,
+      12
+    ],
+    [
+      181,
+      12
+    ],
+    [
+      189,
+      12
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      47,
+      12
+    ],
+    [
+      58,
+      12
+    ],
+    [
+      71,
+      15
+    ],
+    [
+      35,
+      11
+    ],
+    [
+      175,
+      12
+    ],
+    [
+      76,
+      13
+    ],
+    [
+      85,
+      15
+    ],
+    [
+      89,
+      15
+    ],
+    [
+      199,
+      12
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      133,
+      14
+    ],
+    [
+      153,
+      12
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      108,
+      13
+    ],
+    [
+      97,
+      15
+    ],
+    [
+      132,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 34,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 35,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 35
+      }
+    ]
+  }
+}

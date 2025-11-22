@@ -1,0 +1,29 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-407__b1444d48.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5411,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      149,
+      14
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

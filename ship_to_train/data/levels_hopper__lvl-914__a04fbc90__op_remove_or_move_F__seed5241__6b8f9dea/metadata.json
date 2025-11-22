@@ -1,0 +1,57 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-914__a04fbc90.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5241,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 104
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 82
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 134
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      197,
+      10
+    ],
+    [
+      194,
+      9
+    ],
+    [
+      194,
+      10
+    ],
+    [
+      195,
+      10
+    ],
+    [
+      196,
+      10
+    ],
+    [
+      197,
+      11
+    ]
+  ]
+}

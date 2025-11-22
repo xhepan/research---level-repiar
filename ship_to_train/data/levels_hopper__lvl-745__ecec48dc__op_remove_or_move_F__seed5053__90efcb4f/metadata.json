@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-745__ecec48dc.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5053,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 40
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 117
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 139
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      197,
+      10
+    ],
+    [
+      194,
+      10
+    ],
+    [
+      195,
+      10
+    ],
+    [
+      196,
+      10
+    ],
+    [
+      197,
+      11
+    ]
+  ]
+}

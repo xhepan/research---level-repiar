@@ -1,0 +1,73 @@
+{
+  "source_file": "all_valid_levels\\original_lvl-11.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5854,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 52
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 45
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 71
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      180,
+      12
+    ],
+    [
+      178,
+      14
+    ],
+    [
+      178,
+      15
+    ],
+    [
+      179,
+      14
+    ],
+    [
+      179,
+      15
+    ],
+    [
+      180,
+      13
+    ],
+    [
+      180,
+      14
+    ],
+    [
+      180,
+      15
+    ],
+    [
+      181,
+      14
+    ],
+    [
+      181,
+      15
+    ]
+  ]
+}

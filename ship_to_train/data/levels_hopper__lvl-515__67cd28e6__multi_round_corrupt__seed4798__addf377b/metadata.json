@@ -1,0 +1,115 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-515__67cd28e6.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 4798,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 36
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 55
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 17
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      178,
+      0
+    ],
+    [
+      178,
+      1
+    ],
+    [
+      178,
+      2
+    ],
+    [
+      178,
+      3
+    ],
+    [
+      104,
+      13
+    ],
+    [
+      104,
+      2
+    ],
+    [
+      146,
+      12
+    ],
+    [
+      124,
+      4
+    ],
+    [
+      185,
+      13
+    ],
+    [
+      119,
+      14
+    ],
+    [
+      184,
+      9
+    ],
+    [
+      104,
+      11
+    ],
+    [
+      116,
+      7
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      199,
+      3
+    ],
+    [
+      164,
+      0
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_run_v",
+        "k": 17,
+        "details": {
+          "run_len": 4
+        },
+        "edits_applied": 17
+      }
+    ]
+  }
+}

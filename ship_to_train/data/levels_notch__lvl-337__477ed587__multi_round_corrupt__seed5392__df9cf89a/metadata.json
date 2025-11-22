@@ -1,0 +1,125 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-337__477ed587.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5392,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 20
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      65,
+      0
+    ],
+    [
+      153,
+      10
+    ],
+    [
+      42,
+      14
+    ],
+    [
+      66,
+      4
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      59,
+      15
+    ],
+    [
+      75,
+      4
+    ],
+    [
+      152,
+      5
+    ],
+    [
+      170,
+      9
+    ],
+    [
+      184,
+      5
+    ],
+    [
+      186,
+      4
+    ],
+    [
+      199,
+      8
+    ],
+    [
+      84,
+      7
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      128,
+      15
+    ],
+    [
+      96,
+      13
+    ],
+    [
+      159,
+      10
+    ],
+    [
+      151,
+      13
+    ],
+    [
+      30,
+      10
+    ],
+    [
+      189,
+      7
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 30,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 42,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_random",
+        "k": 20,
+        "details": {},
+        "edits_applied": 20
+      }
+    ]
+  }
+}
