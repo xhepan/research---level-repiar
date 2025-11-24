@@ -1,0 +1,187 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-586__06583dc3.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3876,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 20
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 35
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      186,
+      15
+    ],
+    [
+      90,
+      15
+    ],
+    [
+      168,
+      15
+    ],
+    [
+      85,
+      15
+    ],
+    [
+      53,
+      15
+    ],
+    [
+      78,
+      15
+    ],
+    [
+      98,
+      15
+    ],
+    [
+      175,
+      15
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      66,
+      15
+    ],
+    [
+      93,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      161,
+      15
+    ],
+    [
+      23,
+      15
+    ],
+    [
+      76,
+      15
+    ],
+    [
+      95,
+      15
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      31,
+      15
+    ],
+    [
+      33,
+      15
+    ],
+    [
+      77,
+      15
+    ],
+    [
+      92,
+      15
+    ],
+    [
+      36,
+      15
+    ],
+    [
+      57,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      190,
+      15
+    ],
+    [
+      55,
+      15
+    ],
+    [
+      71,
+      15
+    ],
+    [
+      29,
+      15
+    ],
+    [
+      135,
+      15
+    ],
+    [
+      155,
+      15
+    ],
+    [
+      150,
+      15
+    ],
+    [
+      97,
+      15
+    ],
+    [
+      183,
+      15
+    ],
+    [
+      58,
+      15
+    ],
+    [
+      72,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 20,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_identical",
+        "k": 35,
+        "details": {
+          "tile": "X"
+        },
+        "edits_applied": 35
+      }
+    ]
+  }
+}

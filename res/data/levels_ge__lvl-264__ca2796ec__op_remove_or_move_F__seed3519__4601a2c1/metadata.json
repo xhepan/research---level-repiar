@@ -1,0 +1,21 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-264__ca2796ec.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3519,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ]
+  ]
+}

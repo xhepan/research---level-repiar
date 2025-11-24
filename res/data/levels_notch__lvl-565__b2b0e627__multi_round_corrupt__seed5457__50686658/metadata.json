@@ -1,0 +1,216 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-565__b2b0e627.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5457,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 18
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 40
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      30,
+      11
+    ],
+    [
+      27,
+      13
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      29,
+      13
+    ],
+    [
+      46,
+      9
+    ],
+    [
+      79,
+      10
+    ],
+    [
+      45,
+      14
+    ],
+    [
+      80,
+      14
+    ],
+    [
+      41,
+      14
+    ],
+    [
+      47,
+      9
+    ],
+    [
+      82,
+      10
+    ],
+    [
+      127,
+      12
+    ],
+    [
+      157,
+      14
+    ],
+    [
+      45,
+      13
+    ],
+    [
+      150,
+      14
+    ],
+    [
+      135,
+      14
+    ],
+    [
+      131,
+      12
+    ],
+    [
+      84,
+      15
+    ],
+    [
+      149,
+      14
+    ],
+    [
+      69,
+      14
+    ],
+    [
+      135,
+      13
+    ],
+    [
+      76,
+      15
+    ],
+    [
+      62,
+      14
+    ],
+    [
+      136,
+      12
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      174,
+      14
+    ],
+    [
+      71,
+      15
+    ],
+    [
+      20,
+      15
+    ],
+    [
+      45,
+      10
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      91,
+      13
+    ],
+    [
+      31,
+      12
+    ],
+    [
+      93,
+      13
+    ],
+    [
+      78,
+      15
+    ],
+    [
+      154,
+      15
+    ],
+    [
+      92,
+      13
+    ],
+    [
+      28,
+      14
+    ],
+    [
+      103,
+      13
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      167,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_enemies",
+        "k": 43,
+        "details": {
+          "target_set": "enemies"
+        },
+        "edits_applied": 11
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 33,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_obstacles",
+        "k": 29,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 29
+      }
+    ]
+  }
+}

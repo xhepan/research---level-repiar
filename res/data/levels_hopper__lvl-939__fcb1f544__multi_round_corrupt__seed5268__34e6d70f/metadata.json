@@ -1,0 +1,188 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-939__fcb1f544.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5268,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 205
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 79
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 35
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      18,
+      15
+    ],
+    [
+      51,
+      15
+    ],
+    [
+      54,
+      11
+    ],
+    [
+      170,
+      13
+    ],
+    [
+      37,
+      15
+    ],
+    [
+      48,
+      11
+    ],
+    [
+      56,
+      15
+    ],
+    [
+      109,
+      12
+    ],
+    [
+      107,
+      12
+    ],
+    [
+      156,
+      10
+    ],
+    [
+      68,
+      15
+    ],
+    [
+      156,
+      15
+    ],
+    [
+      32,
+      15
+    ],
+    [
+      102,
+      11
+    ],
+    [
+      31,
+      15
+    ],
+    [
+      112,
+      12
+    ],
+    [
+      134,
+      14
+    ],
+    [
+      125,
+      10
+    ],
+    [
+      53,
+      15
+    ],
+    [
+      179,
+      13
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      51,
+      11
+    ],
+    [
+      110,
+      12
+    ],
+    [
+      199,
+      10
+    ],
+    [
+      100,
+      11
+    ],
+    [
+      35,
+      15
+    ],
+    [
+      157,
+      10
+    ],
+    [
+      137,
+      10
+    ],
+    [
+      50,
+      11
+    ],
+    [
+      19,
+      15
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      52,
+      11
+    ],
+    [
+      169,
+      13
+    ],
+    [
+      197,
+      10
+    ],
+    [
+      198,
+      10
+    ]
+  ],
+  "plan": {
+    "rounds": 1,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 33,
+        "details": {
+          "target_set": "obstacles",
+          "flag_nudged": true
+        },
+        "edits_applied": 33
+      }
+    ]
+  }
+}

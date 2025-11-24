@@ -1,0 +1,124 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-479__62a421e6.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3757,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 79
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 21
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      129,
+      15
+    ],
+    [
+      60,
+      15
+    ],
+    [
+      188,
+      15
+    ],
+    [
+      84,
+      15
+    ],
+    [
+      115,
+      15
+    ],
+    [
+      133,
+      15
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      20,
+      15
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      159,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      151,
+      15
+    ],
+    [
+      76,
+      15
+    ],
+    [
+      64,
+      15
+    ],
+    [
+      171,
+      15
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      82,
+      15
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      152,
+      15
+    ],
+    [
+      33,
+      15
+    ],
+    [
+      17,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 1,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_identical",
+        "k": 21,
+        "details": {
+          "tile": "X"
+        },
+        "edits_applied": 21
+      }
+    ]
+  }
+}

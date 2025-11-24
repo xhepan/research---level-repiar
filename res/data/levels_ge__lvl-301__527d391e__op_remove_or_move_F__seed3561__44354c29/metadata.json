@@ -1,0 +1,69 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-301__527d391e.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3561,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 71
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 0
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 3,
+        "edits": 72
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

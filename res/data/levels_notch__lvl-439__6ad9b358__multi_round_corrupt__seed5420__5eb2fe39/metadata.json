@@ -1,0 +1,171 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-439__6ad9b358.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5420,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 2
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 31
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      153,
+      14
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      168,
+      14
+    ],
+    [
+      185,
+      14
+    ],
+    [
+      157,
+      14
+    ],
+    [
+      176,
+      14
+    ],
+    [
+      87,
+      14
+    ],
+    [
+      148,
+      14
+    ],
+    [
+      86,
+      14
+    ],
+    [
+      57,
+      12
+    ],
+    [
+      131,
+      15
+    ],
+    [
+      93,
+      13
+    ],
+    [
+      136,
+      14
+    ],
+    [
+      108,
+      12
+    ],
+    [
+      160,
+      14
+    ],
+    [
+      110,
+      13
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      177,
+      14
+    ],
+    [
+      144,
+      15
+    ],
+    [
+      50,
+      14
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      140,
+      14
+    ],
+    [
+      187,
+      14
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      82,
+      15
+    ],
+    [
+      189,
+      14
+    ],
+    [
+      51,
+      14
+    ],
+    [
+      174,
+      14
+    ],
+    [
+      28,
+      11
+    ],
+    [
+      8,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 35,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 31,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 31
+      }
+    ]
+  }
+}

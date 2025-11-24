@@ -1,0 +1,186 @@
+{
+  "source_file": "all_valid_levels\\levels_notch__lvl-839__d8171797.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5532,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 45
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 83
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 33
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      64,
+      11
+    ],
+    [
+      65,
+      11
+    ],
+    [
+      66,
+      11
+    ],
+    [
+      67,
+      11
+    ],
+    [
+      68,
+      11
+    ],
+    [
+      69,
+      11
+    ],
+    [
+      51,
+      10
+    ],
+    [
+      186,
+      15
+    ],
+    [
+      162,
+      11
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      20,
+      6
+    ],
+    [
+      115,
+      15
+    ],
+    [
+      184,
+      14
+    ],
+    [
+      40,
+      15
+    ],
+    [
+      77,
+      5
+    ],
+    [
+      65,
+      3
+    ],
+    [
+      32,
+      14
+    ],
+    [
+      165,
+      15
+    ],
+    [
+      32,
+      10
+    ],
+    [
+      129,
+      4
+    ],
+    [
+      60,
+      12
+    ],
+    [
+      34,
+      4
+    ],
+    [
+      135,
+      12
+    ],
+    [
+      95,
+      0
+    ],
+    [
+      133,
+      15
+    ],
+    [
+      77,
+      7
+    ],
+    [
+      67,
+      4
+    ],
+    [
+      198,
+      6
+    ],
+    [
+      28,
+      14
+    ],
+    [
+      93,
+      1
+    ],
+    [
+      101,
+      13
+    ],
+    [
+      145,
+      12
+    ],
+    [
+      102,
+      2
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 19,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_run_h",
+        "k": 33,
+        "details": {
+          "run_len": 6
+        },
+        "edits_applied": 33
+      }
+    ]
+  }
+}

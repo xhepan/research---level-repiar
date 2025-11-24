@@ -1,0 +1,226 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-475__7e892b51.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3753,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 63
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 39
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      156,
+      12
+    ],
+    [
+      143,
+      12
+    ],
+    [
+      57,
+      13
+    ],
+    [
+      71,
+      10
+    ],
+    [
+      53,
+      11
+    ],
+    [
+      32,
+      12
+    ],
+    [
+      193,
+      11
+    ],
+    [
+      158,
+      10
+    ],
+    [
+      76,
+      10
+    ],
+    [
+      11,
+      10
+    ],
+    [
+      94,
+      11
+    ],
+    [
+      123,
+      13
+    ],
+    [
+      135,
+      12
+    ],
+    [
+      169,
+      9
+    ],
+    [
+      73,
+      8
+    ],
+    [
+      60,
+      15
+    ],
+    [
+      52,
+      14
+    ],
+    [
+      156,
+      6
+    ],
+    [
+      19,
+      13
+    ],
+    [
+      34,
+      5
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      105,
+      8
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      114,
+      7
+    ],
+    [
+      19,
+      12
+    ],
+    [
+      31,
+      12
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      19,
+      7
+    ],
+    [
+      158,
+      2
+    ],
+    [
+      157,
+      5
+    ],
+    [
+      77,
+      2
+    ],
+    [
+      22,
+      1
+    ],
+    [
+      149,
+      0
+    ],
+    [
+      118,
+      8
+    ],
+    [
+      66,
+      10
+    ],
+    [
+      193,
+      2
+    ],
+    [
+      135,
+      1
+    ],
+    [
+      194,
+      1
+    ],
+    [
+      80,
+      0
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 39,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 32,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_enemies",
+        "k": 20,
+        "details": {
+          "target_set": "enemies"
+        },
+        "edits_applied": 15
+      },
+      {
+        "round": 4,
+        "pattern": "add_low_ceiling_run",
+        "k": 24,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 5,
+        "pattern": "remove_run_v",
+        "k": 24,
+        "details": {
+          "run_len": 4
+        },
+        "edits_applied": 24
+      }
+    ]
+  }
+}

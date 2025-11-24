@@ -1,0 +1,179 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-80__d9cdb63a.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5125,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 0
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 35
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 33
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      172,
+      10
+    ],
+    [
+      169,
+      6
+    ],
+    [
+      70,
+      15
+    ],
+    [
+      68,
+      10
+    ],
+    [
+      67,
+      10
+    ],
+    [
+      168,
+      6
+    ],
+    [
+      59,
+      12
+    ],
+    [
+      43,
+      15
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      6,
+      14
+    ],
+    [
+      164,
+      10
+    ],
+    [
+      144,
+      12
+    ],
+    [
+      62,
+      15
+    ],
+    [
+      109,
+      11
+    ],
+    [
+      91,
+      12
+    ],
+    [
+      86,
+      13
+    ],
+    [
+      188,
+      14
+    ],
+    [
+      190,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      72,
+      10
+    ],
+    [
+      186,
+      14
+    ],
+    [
+      189,
+      14
+    ],
+    [
+      151,
+      10
+    ],
+    [
+      61,
+      12
+    ],
+    [
+      100,
+      12
+    ],
+    [
+      36,
+      15
+    ],
+    [
+      191,
+      15
+    ],
+    [
+      42,
+      15
+    ],
+    [
+      58,
+      12
+    ],
+    [
+      193,
+      15
+    ],
+    [
+      101,
+      12
+    ],
+    [
+      40,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 33,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 33
+      }
+    ]
+  }
+}

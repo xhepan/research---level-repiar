@@ -1,0 +1,69 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-565__b2b0e627.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3853,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 84
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 85
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 17
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

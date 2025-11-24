@@ -1,0 +1,37 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-678__f1b61cfe.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3978,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 51
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 50
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 86
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "source_file": "all_valid_levels\\levels_ge__lvl-165__bbc7d363.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1409,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

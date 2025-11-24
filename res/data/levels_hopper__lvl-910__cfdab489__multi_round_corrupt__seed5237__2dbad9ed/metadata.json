@@ -1,0 +1,208 @@
+{
+  "source_file": "all_valid_levels\\levels_hopper__lvl-910__cfdab489.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5237,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 86
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 153
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 39
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      180,
+      7
+    ],
+    [
+      80,
+      5
+    ],
+    [
+      168,
+      6
+    ],
+    [
+      184,
+      11
+    ],
+    [
+      118,
+      3
+    ],
+    [
+      71,
+      15
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      92,
+      1
+    ],
+    [
+      93,
+      10
+    ],
+    [
+      30,
+      4
+    ],
+    [
+      134,
+      15
+    ],
+    [
+      23,
+      13
+    ],
+    [
+      120,
+      6
+    ],
+    [
+      180,
+      3
+    ],
+    [
+      144,
+      15
+    ],
+    [
+      12,
+      9
+    ],
+    [
+      133,
+      7
+    ],
+    [
+      166,
+      11
+    ],
+    [
+      199,
+      12
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      169,
+      1
+    ],
+    [
+      191,
+      8
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      197,
+      2
+    ],
+    [
+      48,
+      6
+    ],
+    [
+      190,
+      15
+    ],
+    [
+      50,
+      3
+    ],
+    [
+      169,
+      13
+    ],
+    [
+      189,
+      11
+    ],
+    [
+      112,
+      6
+    ],
+    [
+      98,
+      14
+    ],
+    [
+      28,
+      3
+    ],
+    [
+      86,
+      9
+    ],
+    [
+      183,
+      10
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      99,
+      9
+    ],
+    [
+      53,
+      8
+    ],
+    [
+      185,
+      9
+    ],
+    [
+      117,
+      9
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 30,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_random",
+        "k": 39,
+        "details": {},
+        "edits_applied": 39
+      }
+    ]
+  }
+}
