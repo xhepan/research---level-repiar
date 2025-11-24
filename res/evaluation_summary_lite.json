@@ -1,0 +1,1491 @@
+[
+  {
+    "level": "ge_lvl-1000__multi_round_corrupt__seed1340__14e8fe45",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15865850863946176,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-1000__op_remove_or_move_F__seed1340__aa09a0c3",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16113342503422123,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-100__op_full_gap__seed1339__eb2aae65",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.48349875762396344,
+    "unique_tiles": 7
+  },
+  {
+    "level": "ge_lvl-100__op_remove_or_move_F__seed1339__77163602",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1679738401759701,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-101__multi_round_corrupt__seed1341__86fd1cf2",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17591506076337576,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-101__op_remove_or_move_F__seed1341__60282a19",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1645289017039334,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-102__op_remove_or_move_F__seed1342__4392bde8",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.2013249928306256,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-103__multi_round_corrupt__seed1343__64aa81c1",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.13708486598097577,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-103__op_remove_or_move_F__seed1343__f9c79a38",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6912710714809408,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-104__op_full_gap__seed1344__e70939cc",
+    "valid": false,
+    "reasons": [
+      "Goal count=2 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.10800339598051126,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-104__op_remove_or_move_F__seed1344__5c0f1883",
+    "valid": false,
+    "reasons": [
+      "Goal count=2 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.15829717635973398,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-105__multi_round_corrupt__seed1345__93dcae2b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.273627349653586,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-105__op_remove_or_move_F__seed1345__19e4df14",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6540112317696984,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-106__op_remove_or_move_F__seed1346__14f7f859",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1747437929260126,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-107__op_remove_or_move_F__seed1347__95efe8b0",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21279386487387159,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-108__op_remove_or_move_F__seed1348__c8728800",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1679579644974396,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-109__multi_round_corrupt__seed1349__95c7a72d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21207450983300513,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-109__op_full_gap__seed1349__a37a18a6",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15114355696090925,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-109__op_remove_or_move_F__seed1349__827d9da7",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21164925357734887,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-10__multi_round_corrupt__seed1338__f981c402",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1215729566522844,
+    "unique_tiles": 6
+  },
+  {
+    "level": "ge_lvl-10__op_remove_or_move_F__seed1338__af500805",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1859713908553603,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-110__op_remove_or_move_F__seed1351__a583a312",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.02 (<0.20)"
+    ],
+    "entropy": 0.33120512538010094,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-111__op_remove_or_move_F__seed1352__ffc0e1c1",
+    "valid": false,
+    "reasons": [
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.10855690654005576,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-112__op_remove_or_move_F__seed1353__1848c930",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.18650462744860075,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-113__multi_round_corrupt__seed1354__fe637d07",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.169531851374562,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-113__op_remove_or_move_F__seed1354__0cdcf46e",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6930034150907899,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-114__op_full_gap__seed1355__b89e4f28",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.10925547738208491,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-114__op_remove_or_move_F__seed1355__e1cf59d4",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16569793419629175,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-115__op_remove_or_move_F__seed1356__753febf2",
+    "valid": false,
+    "reasons": [
+      "Goal count=12 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.7224991671394335,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-116__op_remove_or_move_F__seed1357__ce72cfa5",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.16921972032981666,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-117__op_remove_or_move_F__seed1358__ff159802",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1732538028714125,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-118__op_full_gap__seed1359__19d3b1e1",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.14346517697850583,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-118__op_remove_or_move_F__seed1359__5c2eb225",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.18935954983022404,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-119__multi_round_corrupt__seed1360__777e8ec8",
+    "valid": false,
+    "reasons": [
+      "Goal count=10 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.621744859812355,
+    "unique_tiles": 20
+  },
+  {
+    "level": "ge_lvl-119__op_remove_or_move_F__seed1360__2b0a683f",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.18578452975221232,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-11__op_full_gap__seed1350__65cde923",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.4953426710904717,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-11__op_remove_or_move_F__seed1350__1fc183b1",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.6444105374028597,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-120__op_remove_or_move_F__seed1362__b10218be",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1915517124768697,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-121__op_remove_or_move_F__seed1363__2c549a59",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.5206535160434835,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-122__op_remove_or_move_F__seed1364__a4c66873",
+    "valid": false,
+    "reasons": [
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.7827539662131862,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-123__op_full_gap__seed1365__5e0b3865",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.5059464784301172,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-123__op_remove_or_move_F__seed1365__3abf9c16",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.6889682128393508,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-124__op_remove_or_move_F__seed1366__b8849629",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.17811702107514688,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-125__multi_round_corrupt__seed1367__0aa553f0",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1507773657307314,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-125__op_remove_or_move_F__seed1367__eec9d65f",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.19415298024808886,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-126__op_full_gap__seed1368__0299a571",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.5015981154176613,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-126__op_remove_or_move_F__seed1368__1aaf4d51",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.6487135086625088,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-127__op_full_gap__seed1369__349c2655",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.14435478781901867,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-127__op_remove_or_move_F__seed1369__c6c411bc",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.19083953474240323,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-128__op_remove_or_move_F__seed1370__2fdd868c",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.16895608986370142,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-129__op_full_gap__seed1371__e7132e40",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.5342514332649907,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-129__op_remove_or_move_F__seed1371__feb3d2fa",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.7165462490251602,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-12__multi_round_corrupt__seed1361__0c996848",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21131731055721403,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-12__op_full_gap__seed1361__6a4ea0ab",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.15417124438949203,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-12__op_remove_or_move_F__seed1361__b3db1c5a",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.3519202998946998,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-130__op_full_gap__seed1373__734580ef",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.10792982594929978,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-130__op_remove_or_move_F__seed1373__9ba3a3aa",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16669558166445908,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-131__op_remove_or_move_F__seed1374__505c6913",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.561636902784171,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-132__op_remove_or_move_F__seed1375__a87a4b7d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17084177671806236,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-133__multi_round_corrupt__seed1376__36f30cb6",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1568993314955407,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-133__op_remove_or_move_F__seed1376__d0660788",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1558659222155387,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-134__multi_round_corrupt__seed1377__d059d6c4",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1269105250427165,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-134__op_full_gap__seed1377__c465f2bd",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.11741902282615407,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-134__op_remove_or_move_F__seed1377__fbd8aaba",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.19610586465479962,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-135__multi_round_corrupt__seed1378__8983e02b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.12206951241096528,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-135__op_remove_or_move_F__seed1378__46d24982",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.674302790419118,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-136__op_remove_or_move_F__seed1379__921445a3",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.7230543952743915,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-137__op_remove_or_move_F__seed1380__d3b37a6a",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1551862672534646,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-138__op_full_gap__seed1381__daf3218a",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.14843625943578104,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-138__op_remove_or_move_F__seed1381__bd60004f",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.20159364159419227,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-139__multi_round_corrupt__seed1382__bd7db394",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.11694972207191606,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-139__op_remove_or_move_F__seed1382__c2f5f16b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.14217326847409012,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-13__op_remove_or_move_F__seed1372__3347929a",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16918082974699378,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-140__op_remove_or_move_F__seed1384__c7ae5f9c",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15562454356462746,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-141__op_remove_or_move_F__seed1385__656b43c1",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15657127447107405,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-142__multi_round_corrupt__seed1386__15227003",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.13087840528655517,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-142__op_remove_or_move_F__seed1386__2d4ef90d",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.18366239829129707,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-143__multi_round_corrupt__seed1387__142881d7",
+    "valid": false,
+    "reasons": [
+      "Goal count=10 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6998165070432072,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-143__op_remove_or_move_F__seed1387__71654705",
+    "valid": false,
+    "reasons": [
+      "Goal count=10 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.709098288725791,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-144__multi_round_corrupt__seed1388__147798f8",
+    "valid": false,
+    "reasons": [
+      "Goal count=2 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.2407522549454721,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-144__op_remove_or_move_F__seed1388__0b53e14f",
+    "valid": false,
+    "reasons": [
+      "Goal count=10 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.627821438320326,
+    "unique_tiles": 18
+  },
+  {
+    "level": "ge_lvl-145__op_full_gap__seed1389__bcf12e2a",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.14627594567595092,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-145__op_remove_or_move_F__seed1389__11abb7ca",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21387314540810992,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-146__multi_round_corrupt__seed1390__d9f58634",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.23764878444331577,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-146__op_remove_or_move_F__seed1390__869e3729",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15663288958485486,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-147__op_full_gap__seed1391__23ed062e",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1199413117442639,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-147__op_remove_or_move_F__seed1391__28ee83b5",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.17734530184235547,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-148__op_remove_or_move_F__seed1392__86c4b663",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.20044349981460086,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-149__multi_round_corrupt__seed1393__414be2cb",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.18560509908536604,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-149__op_full_gap__seed1393__f3772e02",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.10820821880164934,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-149__op_remove_or_move_F__seed1393__8a683a77",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1860449132524162,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-14__multi_round_corrupt__seed1383__5dbb24a6",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.12958325576522683,
+    "unique_tiles": 5
+  },
+  {
+    "level": "ge_lvl-14__op_full_gap__seed1383__a74df27b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15480314410302137,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-14__op_remove_or_move_F__seed1383__8782e4f8",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.21009513135299093,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-150__op_remove_or_move_F__seed1395__9fb13405",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6346557393621605,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-151__op_full_gap__seed1396__651c627d",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.4731869322686868,
+    "unique_tiles": 20
+  },
+  {
+    "level": "ge_lvl-151__op_remove_or_move_F__seed1396__3a65db1f",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6263996200273609,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-152__op_full_gap__seed1397__1e928023",
+    "valid": false,
+    "reasons": [
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.41696485045465764,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-152__op_remove_or_move_F__seed1397__89bbfa0e",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.5858212230946114,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-153__multi_round_corrupt__seed1398__3433c08e",
+    "valid": false,
+    "reasons": [
+      "Goal count=2 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.01 (<0.20)"
+    ],
+    "entropy": 0.01997195821673929,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-153__op_remove_or_move_F__seed1398__8b6f9363",
+    "valid": false,
+    "reasons": [
+      "Goal count=11 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6327220216653997,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-154__multi_round_corrupt__seed1399__12436986",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1813360724280661,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-154__op_remove_or_move_F__seed1399__d4314630",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.648563035048239,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-155__op_remove_or_move_F__seed1400__f9e4fd51",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.18046337790135036,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-156__multi_round_corrupt__seed1401__90d6a461",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16857562660884742,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-156__op_remove_or_move_F__seed1401__9e6c0b68",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.660499624488228,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-157__op_full_gap__seed1402__0bfea0dc",
+    "valid": false,
+    "reasons": [
+      "Goal count=2 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.4570008354147967,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-157__op_remove_or_move_F__seed1402__14297fdc",
+    "valid": false,
+    "reasons": [
+      "Goal count=10 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6472983132164914,
+    "unique_tiles": 21
+  },
+  {
+    "level": "ge_lvl-158__op_remove_or_move_F__seed1403__15e117d4",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1690249091237274,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-159__op_remove_or_move_F__seed1404__d6541956",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1578915666531958,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-15__op_remove_or_move_F__seed1394__0d698f63",
+    "valid": false,
+    "reasons": [
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.646056542272501,
+    "unique_tiles": 20
+  },
+  {
+    "level": "ge_lvl-160__multi_round_corrupt__seed1406__bbc2245c",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1807742100670507,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-160__op_remove_or_move_F__seed1406__ea1c504b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.7216287975802333,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-161__multi_round_corrupt__seed1407__634e001a",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17741236322616186,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-161__op_remove_or_move_F__seed1407__9aeedce0",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17334490568310523,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-162__op_full_gap__seed1408__fc133f43",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1243035870644557,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-162__op_remove_or_move_F__seed1408__2b077c51",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1711922436062581,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-163__multi_round_corrupt__seed1409__01dce530",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1568066689511566,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-163__op_remove_or_move_F__seed1409__818e89a9",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15827324227216102,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-164__op_remove_or_move_F__seed1410__f4250ee3",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.15423901838543266,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-165__op_full_gap__seed1411__750da353",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.14292394946872114,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-165__op_remove_or_move_F__seed1411__78a1a80d",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.185884223757587,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-166__op_full_gap__seed1412__f2a80387",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.12202653586244727,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-166__op_remove_or_move_F__seed1412__b5698584",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1542970896718469,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-167__op_full_gap__seed1413__73146239",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.420419611769275,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-167__op_remove_or_move_F__seed1413__ad41642d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1547729863559951,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-168__op_remove_or_move_F__seed1414__586649da",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.6052066997151753,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-169__multi_round_corrupt__seed1415__625e3d86",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.2356321755517541,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-169__op_remove_or_move_F__seed1415__03b9108e",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17413398526857127,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-16__multi_round_corrupt__seed1405__63e8cf95",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16609070523752129,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-16__op_remove_or_move_F__seed1405__3351732f",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.17867102978201074,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-170__op_remove_or_move_F__seed1417__05cf5967",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17420102925069852,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-171__op_full_gap__seed1418__4f8b672d",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.12270895219134895,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-171__op_remove_or_move_F__seed1418__bba17d4b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17077064934774877,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-172__multi_round_corrupt__seed1419__66973138",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.13742615662926225,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-172__op_remove_or_move_F__seed1419__03bf8625",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1766525367481679,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-173__op_full_gap__seed1420__b39baffc",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.5152227283354274,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-173__op_remove_or_move_F__seed1420__15cc22fb",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.6552911603209302,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-174__multi_round_corrupt__seed1421__85caad20",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17401942735729553,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-174__op_remove_or_move_F__seed1421__b630e538",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)"
+    ],
+    "entropy": 0.5032954992821663,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-175__multi_round_corrupt__seed1422__3a3e56fc",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1594751667887794,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-175__op_full_gap__seed1422__03ba5863",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1262314915717408,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-175__op_remove_or_move_F__seed1422__bcced8e2",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1583954622781975,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-176__op_full_gap__seed1423__c32ee340",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1508968033815012,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-176__op_remove_or_move_F__seed1423__69cabc44",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.20778733409444572,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-177__multi_round_corrupt__seed1424__8f7417be",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1378309586630441,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-177__op_remove_or_move_F__seed1424__bca34a62",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.7148549376349045,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-178__op_full_gap__seed1425__18315ce5",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1397160448376637,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-178__op_remove_or_move_F__seed1425__4cbe9f69",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16691307636473265,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-179__op_full_gap__seed1426__f5c0ad9c",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)"
+    ],
+    "entropy": -9.999999889225291e-09,
+    "unique_tiles": 1
+  },
+  {
+    "level": "ge_lvl-179__op_remove_or_move_F__seed1426__8aaa0623",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.761857081018866,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-17__op_full_gap__seed1416__d2fe2d69",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1075871907956468,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-17__op_remove_or_move_F__seed1416__056d7d4f",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15211618925435555,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-180__op_remove_or_move_F__seed1428__44f9d6d6",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.19011463729013645,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-181__op_remove_or_move_F__seed1429__0b05c398",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.19218336304834663,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-182__multi_round_corrupt__seed1430__6b2c75f0",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15660262835479766,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-182__op_remove_or_move_F__seed1430__5833db37",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.15720153853078153,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-183__op_full_gap__seed1431__dd2ceefd",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.13245683982261636,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-183__op_remove_or_move_F__seed1431__96c59eef",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.699721981254477,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-184__multi_round_corrupt__seed1432__1f691d95",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.16592718208773133,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-184__op_remove_or_move_F__seed1432__6d691444",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.618614210680954,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-185__op_remove_or_move_F__seed1433__026c45a6",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.24533435597519496,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-186__multi_round_corrupt__seed1434__48e5bf0d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17000649873985313,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-186__op_remove_or_move_F__seed1434__a09093ac",
+    "valid": false,
+    "reasons": [
+      "Goal count=9 (expected 1 in {'F'})",
+      "Bottom row ground too low: 0.00 (<0.20)",
+      "Unknown tiles present (sample= :Radeip)"
+    ],
+    "entropy": 0.6757444927869782,
+    "unique_tiles": 22
+  },
+  {
+    "level": "ge_lvl-187__multi_round_corrupt__seed1435__41306231",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.225828837063354,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-187__op_remove_or_move_F__seed1435__7aa172a2",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.2371765261113443,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-188__op_full_gap__seed1436__4cef2464",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.4619211055782352,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-188__op_remove_or_move_F__seed1436__2063675c",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.7093942035647737,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-189__op_remove_or_move_F__seed1437__9b616919",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.1648884763297795,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-18__op_full_gap__seed1427__31cf3173",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.12901905365234062,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-18__op_remove_or_move_F__seed1427__048a6858",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.16599965676215597,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-190__op_full_gap__seed1439__8b673657",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.12806136222360287,
+    "unique_tiles": 7
+  },
+  {
+    "level": "ge_lvl-190__op_remove_or_move_F__seed1439__1517c6ee",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1687235934630033,
+    "unique_tiles": 7
+  },
+  {
+    "level": "ge_lvl-191__multi_round_corrupt__seed1440__f7c6315e",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.12314728879718193,
+    "unique_tiles": 6
+  },
+  {
+    "level": "ge_lvl-191__op_remove_or_move_F__seed1440__e6c3eae9",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1752928025809954,
+    "unique_tiles": 8
+  },
+  {
+    "level": "ge_lvl-192__op_full_gap__seed1441__f85dab28",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.13327487958665993,
+    "unique_tiles": 10
+  },
+  {
+    "level": "ge_lvl-192__op_remove_or_move_F__seed1441__8f98101d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.1705105368073775,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-193__op_full_gap__seed1442__1e8726ec",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.14383844950439878,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-193__op_remove_or_move_F__seed1442__7cad1173",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.18110507701357914,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-194__op_remove_or_move_F__seed1443__df45cfec",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.2009899567624463,
+    "unique_tiles": 9
+  },
+  {
+    "level": "ge_lvl-195__op_full_gap__seed1444__323a9772",
+    "valid": false,
+    "reasons": [
+      "Goal count=0 (expected 1 in {'F'})"
+    ],
+    "entropy": 0.13438036555765576,
+    "unique_tiles": 11
+  },
+  {
+    "level": "ge_lvl-195__op_remove_or_move_F__seed1444__51e41a8b",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.17284296582318182,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-196__op_remove_or_move_F__seed1445__f8d9147e",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.2144652589854207,
+    "unique_tiles": 12
+  },
+  {
+    "level": "ge_lvl-197__op_full_gap__seed1446__dc7e640d",
+    "valid": true,
+    "reasons": [],
+    "entropy": 0.13966148643116752,
+    "unique_tiles": 6
+  }
+]
