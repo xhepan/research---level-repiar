@@ -1,0 +1,65 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-559.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1848,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 51
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 23
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 38
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      197,
+      10
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      12
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

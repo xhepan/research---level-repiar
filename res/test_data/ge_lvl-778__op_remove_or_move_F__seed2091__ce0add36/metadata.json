@@ -1,0 +1,69 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-778.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 2091,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 29
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 65
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 0
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

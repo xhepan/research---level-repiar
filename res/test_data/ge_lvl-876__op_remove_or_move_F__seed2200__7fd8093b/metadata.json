@@ -1,0 +1,69 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-876.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 2200,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 81
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 39
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 46
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      12
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

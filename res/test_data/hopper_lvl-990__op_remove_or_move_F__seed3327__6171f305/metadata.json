@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-990.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 3327,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 71
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 179
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 24
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      197,
+      11
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

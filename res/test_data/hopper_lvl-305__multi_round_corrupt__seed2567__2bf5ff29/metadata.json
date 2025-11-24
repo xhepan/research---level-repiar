@@ -1,0 +1,212 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-305.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2567,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 38
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 74
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 39
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      73,
+      11
+    ],
+    [
+      108,
+      13
+    ],
+    [
+      75,
+      11
+    ],
+    [
+      70,
+      11
+    ],
+    [
+      133,
+      13
+    ],
+    [
+      100,
+      9
+    ],
+    [
+      189,
+      9
+    ],
+    [
+      77,
+      11
+    ],
+    [
+      72,
+      11
+    ],
+    [
+      76,
+      11
+    ],
+    [
+      71,
+      11
+    ],
+    [
+      161,
+      13
+    ],
+    [
+      180,
+      9
+    ],
+    [
+      150,
+      12
+    ],
+    [
+      90,
+      9
+    ],
+    [
+      129,
+      13
+    ],
+    [
+      74,
+      11
+    ],
+    [
+      0,
+      11
+    ],
+    [
+      0,
+      12
+    ],
+    [
+      0,
+      13
+    ],
+    [
+      0,
+      14
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      69,
+      11
+    ],
+    [
+      158,
+      15
+    ],
+    [
+      1,
+      14
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      37,
+      3
+    ],
+    [
+      137,
+      7
+    ],
+    [
+      174,
+      6
+    ],
+    [
+      70,
+      4
+    ],
+    [
+      36,
+      3
+    ],
+    [
+      174,
+      10
+    ],
+    [
+      83,
+      5
+    ],
+    [
+      133,
+      3
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      182,
+      3
+    ],
+    [
+      111,
+      6
+    ],
+    [
+      135,
+      8
+    ],
+    [
+      116,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_enemies",
+        "k": 43,
+        "details": {
+          "target_set": "enemies"
+        },
+        "edits_applied": 17
+      },
+      {
+        "round": 2,
+        "pattern": "remove_run_v",
+        "k": 22,
+        "details": {
+          "run_len": 8
+        },
+        "edits_applied": 22
+      }
+    ]
+  }
+}

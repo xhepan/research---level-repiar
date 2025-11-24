@@ -1,0 +1,101 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-390.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1661,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 78
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 41
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 25
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      7
+    ],
+    [
+      196,
+      8
+    ],
+    [
+      196,
+      9
+    ],
+    [
+      196,
+      10
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      7
+    ],
+    [
+      197,
+      8
+    ],
+    [
+      197,
+      9
+    ],
+    [
+      197,
+      10
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

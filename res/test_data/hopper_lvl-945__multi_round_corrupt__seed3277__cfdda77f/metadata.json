@@ -1,0 +1,127 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-945.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3277,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 24
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      185,
+      3
+    ],
+    [
+      131,
+      10
+    ],
+    [
+      39,
+      12
+    ],
+    [
+      121,
+      3
+    ],
+    [
+      137,
+      6
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      175,
+      9
+    ],
+    [
+      49,
+      10
+    ],
+    [
+      67,
+      15
+    ],
+    [
+      73,
+      3
+    ],
+    [
+      48,
+      12
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      27,
+      5
+    ],
+    [
+      30,
+      11
+    ],
+    [
+      57,
+      8
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      45,
+      12
+    ],
+    [
+      161,
+      10
+    ],
+    [
+      153,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      22,
+      8
+    ],
+    [
+      100,
+      1
+    ],
+    [
+      173,
+      15
+    ],
+    [
+      197,
+      4
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_random",
+        "k": 24,
+        "details": {},
+        "edits_applied": 24
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-878.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3202,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 93
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 116
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 23
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      197,
+      10
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      12
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      14
+    ],
+    [
+      197,
+      15
+    ],
+    [
+      148,
+      10
+    ],
+    [
+      77,
+      3
+    ],
+    [
+      137,
+      4
+    ],
+    [
+      169,
+      2
+    ],
+    [
+      75,
+      13
+    ],
+    [
+      136,
+      9
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      193,
+      9
+    ],
+    [
+      149,
+      12
+    ],
+    [
+      90,
+      6
+    ],
+    [
+      141,
+      13
+    ],
+    [
+      154,
+      15
+    ],
+    [
+      170,
+      4
+    ],
+    [
+      176,
+      7
+    ],
+    [
+      69,
+      7
+    ],
+    [
+      66,
+      7
+    ],
+    [
+      154,
+      9
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 16,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 18,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "add_low_ceiling_run",
+        "k": 34,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 4,
+        "pattern": "remove_run_v",
+        "k": 23,
+        "details": {
+          "run_len": 7
+        },
+        "edits_applied": 23
+      }
+    ]
+  }
+}

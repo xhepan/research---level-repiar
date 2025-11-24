@@ -1,0 +1,165 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-246.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2501,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 31
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 28
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 30
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      191,
+      5
+    ],
+    [
+      125,
+      2
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      182,
+      12
+    ],
+    [
+      36,
+      14
+    ],
+    [
+      27,
+      11
+    ],
+    [
+      157,
+      12
+    ],
+    [
+      176,
+      8
+    ],
+    [
+      130,
+      11
+    ],
+    [
+      199,
+      9
+    ],
+    [
+      56,
+      4
+    ],
+    [
+      23,
+      9
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      162,
+      5
+    ],
+    [
+      138,
+      8
+    ],
+    [
+      64,
+      7
+    ],
+    [
+      82,
+      15
+    ],
+    [
+      176,
+      1
+    ],
+    [
+      190,
+      2
+    ],
+    [
+      115,
+      11
+    ],
+    [
+      82,
+      13
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      97,
+      7
+    ],
+    [
+      16,
+      6
+    ],
+    [
+      144,
+      12
+    ],
+    [
+      82,
+      10
+    ],
+    [
+      52,
+      15
+    ],
+    [
+      175,
+      8
+    ],
+    [
+      110,
+      5
+    ],
+    [
+      196,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_random",
+        "k": 30,
+        "details": {},
+        "edits_applied": 30
+      }
+    ]
+  }
+}

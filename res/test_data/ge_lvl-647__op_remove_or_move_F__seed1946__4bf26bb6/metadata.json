@@ -1,0 +1,77 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-647.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1946,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 67
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 57
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 31
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      12
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

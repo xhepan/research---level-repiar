@@ -1,0 +1,271 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-594.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2887,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 52
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      119,
+      10
+    ],
+    [
+      66,
+      11
+    ],
+    [
+      26,
+      10
+    ],
+    [
+      173,
+      11
+    ],
+    [
+      115,
+      10
+    ],
+    [
+      43,
+      13
+    ],
+    [
+      52,
+      13
+    ],
+    [
+      118,
+      10
+    ],
+    [
+      42,
+      13
+    ],
+    [
+      140,
+      9
+    ],
+    [
+      109,
+      11
+    ],
+    [
+      51,
+      13
+    ],
+    [
+      72,
+      11
+    ],
+    [
+      114,
+      10
+    ],
+    [
+      113,
+      10
+    ],
+    [
+      112,
+      10
+    ],
+    [
+      65,
+      11
+    ],
+    [
+      68,
+      11
+    ],
+    [
+      170,
+      11
+    ],
+    [
+      70,
+      11
+    ],
+    [
+      132,
+      9
+    ],
+    [
+      64,
+      11
+    ],
+    [
+      27,
+      10
+    ],
+    [
+      74,
+      11
+    ],
+    [
+      73,
+      11
+    ],
+    [
+      50,
+      13
+    ],
+    [
+      67,
+      11
+    ],
+    [
+      69,
+      11
+    ],
+    [
+      116,
+      10
+    ],
+    [
+      111,
+      10
+    ],
+    [
+      34,
+      10
+    ],
+    [
+      71,
+      11
+    ],
+    [
+      117,
+      10
+    ],
+    [
+      71,
+      10
+    ],
+    [
+      77,
+      13
+    ],
+    [
+      124,
+      12
+    ],
+    [
+      118,
+      14
+    ],
+    [
+      122,
+      12
+    ],
+    [
+      150,
+      11
+    ],
+    [
+      115,
+      9
+    ],
+    [
+      164,
+      15
+    ],
+    [
+      36,
+      15
+    ],
+    [
+      96,
+      14
+    ],
+    [
+      7,
+      14
+    ],
+    [
+      141,
+      15
+    ],
+    [
+      87,
+      14
+    ],
+    [
+      138,
+      11
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      49,
+      15
+    ],
+    [
+      50,
+      15
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      174,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 22,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_enemies",
+        "k": 34,
+        "details": {
+          "target_set": "enemies"
+        },
+        "edits_applied": 33
+      },
+      {
+        "round": 3,
+        "pattern": "add_low_ceiling_run",
+        "k": 25,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 4,
+        "pattern": "add_low_ceiling_run",
+        "k": 36,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 5,
+        "pattern": "remove_obstacles",
+        "k": 19,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 19
+      }
+    ]
+  }
+}

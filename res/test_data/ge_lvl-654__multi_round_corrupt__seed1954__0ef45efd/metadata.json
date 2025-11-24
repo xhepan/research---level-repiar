@@ -1,0 +1,212 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-654.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 1954,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 69
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 61
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 39
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      80,
+      14
+    ],
+    [
+      81,
+      14
+    ],
+    [
+      82,
+      14
+    ],
+    [
+      83,
+      14
+    ],
+    [
+      84,
+      14
+    ],
+    [
+      109,
+      1
+    ],
+    [
+      147,
+      3
+    ],
+    [
+      190,
+      1
+    ],
+    [
+      129,
+      15
+    ],
+    [
+      191,
+      10
+    ],
+    [
+      91,
+      1
+    ],
+    [
+      167,
+      0
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      86,
+      14
+    ],
+    [
+      24,
+      6
+    ],
+    [
+      85,
+      1
+    ],
+    [
+      18,
+      12
+    ],
+    [
+      49,
+      4
+    ],
+    [
+      44,
+      11
+    ],
+    [
+      179,
+      15
+    ],
+    [
+      130,
+      12
+    ],
+    [
+      161,
+      13
+    ],
+    [
+      58,
+      12
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      164,
+      15
+    ],
+    [
+      155,
+      13
+    ],
+    [
+      129,
+      13
+    ],
+    [
+      154,
+      13
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      119,
+      15
+    ],
+    [
+      124,
+      15
+    ],
+    [
+      67,
+      15
+    ],
+    [
+      28,
+      13
+    ],
+    [
+      81,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      187,
+      15
+    ],
+    [
+      38,
+      13
+    ],
+    [
+      52,
+      12
+    ],
+    [
+      116,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_run_h",
+        "k": 19,
+        "details": {
+          "run_len": 5
+        },
+        "edits_applied": 19
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 20,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-369.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1637,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 95
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 82
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 45
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      10
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      10
+    ],
+    [
+      197,
+      11
+    ],
+    [
+      197,
+      12
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

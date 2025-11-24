@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-332.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5654,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 68
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 0
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 87
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      148,
+      13
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

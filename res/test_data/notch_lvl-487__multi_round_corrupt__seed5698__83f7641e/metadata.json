@@ -1,0 +1,164 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-487.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5698,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 83
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 31
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      193,
+      13
+    ],
+    [
+      140,
+      13
+    ],
+    [
+      57,
+      13
+    ],
+    [
+      98,
+      13
+    ],
+    [
+      28,
+      10
+    ],
+    [
+      28,
+      12
+    ],
+    [
+      46,
+      12
+    ],
+    [
+      178,
+      13
+    ],
+    [
+      29,
+      9
+    ],
+    [
+      171,
+      13
+    ],
+    [
+      76,
+      13
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      154,
+      13
+    ],
+    [
+      97,
+      13
+    ],
+    [
+      150,
+      13
+    ],
+    [
+      79,
+      13
+    ],
+    [
+      129,
+      12
+    ],
+    [
+      38,
+      15
+    ],
+    [
+      103,
+      12
+    ],
+    [
+      162,
+      13
+    ],
+    [
+      151,
+      13
+    ],
+    [
+      88,
+      13
+    ],
+    [
+      190,
+      13
+    ],
+    [
+      23,
+      13
+    ],
+    [
+      107,
+      12
+    ],
+    [
+      123,
+      13
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      163,
+      13
+    ],
+    [
+      74,
+      12
+    ],
+    [
+      145,
+      13
+    ],
+    [
+      116,
+      12
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 31,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 31
+      }
+    ]
+  }
+}

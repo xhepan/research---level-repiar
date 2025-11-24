@@ -1,0 +1,178 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-518.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2803,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 83
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 31
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      24,
+      15
+    ],
+    [
+      18,
+      15
+    ],
+    [
+      74,
+      15
+    ],
+    [
+      188,
+      14
+    ],
+    [
+      23,
+      15
+    ],
+    [
+      152,
+      12
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      78,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      171,
+      13
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      151,
+      12
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      145,
+      14
+    ],
+    [
+      141,
+      14
+    ],
+    [
+      111,
+      15
+    ],
+    [
+      91,
+      13
+    ],
+    [
+      92,
+      15
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      73,
+      15
+    ],
+    [
+      148,
+      14
+    ],
+    [
+      190,
+      14
+    ],
+    [
+      106,
+      15
+    ],
+    [
+      120,
+      13
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      155,
+      12
+    ],
+    [
+      22,
+      15
+    ],
+    [
+      105,
+      15
+    ],
+    [
+      143,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 18,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 50,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_obstacles",
+        "k": 31,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 31
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-749.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 2059,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 102
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 49
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 77
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      196,
+      11
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

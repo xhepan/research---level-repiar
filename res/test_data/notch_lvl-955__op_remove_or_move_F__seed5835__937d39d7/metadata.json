@@ -1,0 +1,29 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-955.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5835,
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      147,
+      13
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

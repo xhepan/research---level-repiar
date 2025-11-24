@@ -1,0 +1,77 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-730.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 2039,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 112
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 80
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 41
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      10
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      195,
+      10
+    ],
+    [
+      195,
+      11
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      197,
+      13
+    ]
+  ]
+}

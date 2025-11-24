@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-301.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5648,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 40
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 51
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 0
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      147,
+      15
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

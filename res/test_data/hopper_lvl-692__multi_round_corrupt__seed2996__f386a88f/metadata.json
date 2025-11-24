@@ -1,0 +1,160 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-692.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2996,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 20
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 30
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      65,
+      11
+    ],
+    [
+      96,
+      15
+    ],
+    [
+      139,
+      15
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      155,
+      12
+    ],
+    [
+      83,
+      14
+    ],
+    [
+      151,
+      15
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      101,
+      13
+    ],
+    [
+      173,
+      12
+    ],
+    [
+      151,
+      14
+    ],
+    [
+      167,
+      12
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      185,
+      13
+    ],
+    [
+      89,
+      15
+    ],
+    [
+      92,
+      12
+    ],
+    [
+      36,
+      15
+    ],
+    [
+      49,
+      15
+    ],
+    [
+      191,
+      13
+    ],
+    [
+      68,
+      15
+    ],
+    [
+      98,
+      15
+    ],
+    [
+      143,
+      15
+    ],
+    [
+      77,
+      14
+    ],
+    [
+      97,
+      12
+    ],
+    [
+      91,
+      15
+    ],
+    [
+      72,
+      14
+    ],
+    [
+      152,
+      14
+    ],
+    [
+      37,
+      13
+    ],
+    [
+      58,
+      15
+    ],
+    [
+      89,
+      12
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 30,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 30
+      }
+    ]
+  }
+}

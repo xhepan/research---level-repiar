@@ -1,0 +1,129 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-529.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 1815,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 24
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      94,
+      15
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      190,
+      15
+    ],
+    [
+      132,
+      15
+    ],
+    [
+      137,
+      15
+    ],
+    [
+      33,
+      15
+    ],
+    [
+      174,
+      15
+    ],
+    [
+      169,
+      15
+    ],
+    [
+      20,
+      15
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      198,
+      15
+    ],
+    [
+      73,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      110,
+      15
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      156,
+      15
+    ],
+    [
+      136,
+      15
+    ],
+    [
+      166,
+      15
+    ],
+    [
+      21,
+      15
+    ],
+    [
+      158,
+      15
+    ],
+    [
+      123,
+      15
+    ],
+    [
+      181,
+      15
+    ],
+    [
+      92,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 1,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_identical",
+        "k": 24,
+        "details": {
+          "tile": "X"
+        },
+        "edits_applied": 24
+      }
+    ]
+  }
+}

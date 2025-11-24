@@ -1,0 +1,175 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-224.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2477,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 86
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 32
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      152,
+      10
+    ],
+    [
+      64,
+      13
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      49,
+      13
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      110,
+      13
+    ],
+    [
+      40,
+      15
+    ],
+    [
+      42,
+      15
+    ],
+    [
+      60,
+      13
+    ],
+    [
+      103,
+      11
+    ],
+    [
+      70,
+      14
+    ],
+    [
+      72,
+      12
+    ],
+    [
+      9,
+      14
+    ],
+    [
+      164,
+      10
+    ],
+    [
+      55,
+      13
+    ],
+    [
+      31,
+      15
+    ],
+    [
+      124,
+      11
+    ],
+    [
+      44,
+      15
+    ],
+    [
+      19,
+      15
+    ],
+    [
+      122,
+      11
+    ],
+    [
+      45,
+      15
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      191,
+      15
+    ],
+    [
+      47,
+      13
+    ],
+    [
+      91,
+      14
+    ],
+    [
+      50,
+      15
+    ],
+    [
+      190,
+      15
+    ],
+    [
+      192,
+      15
+    ],
+    [
+      58,
+      13
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      163,
+      8
+    ],
+    [
+      143,
+      11
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 29,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 32,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 32
+      }
+    ]
+  }
+}

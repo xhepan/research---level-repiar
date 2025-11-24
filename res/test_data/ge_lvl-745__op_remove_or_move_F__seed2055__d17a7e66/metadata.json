@@ -1,0 +1,37 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-745.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 2055,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 26
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 44
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 121
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ]
+  ]
+}

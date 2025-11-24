@@ -1,0 +1,181 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-874.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3198,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 58
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 33
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      70,
+      9
+    ],
+    [
+      67,
+      9
+    ],
+    [
+      61,
+      9
+    ],
+    [
+      59,
+      10
+    ],
+    [
+      72,
+      9
+    ],
+    [
+      63,
+      9
+    ],
+    [
+      136,
+      8
+    ],
+    [
+      66,
+      9
+    ],
+    [
+      69,
+      9
+    ],
+    [
+      185,
+      11
+    ],
+    [
+      65,
+      9
+    ],
+    [
+      62,
+      9
+    ],
+    [
+      184,
+      11
+    ],
+    [
+      71,
+      9
+    ],
+    [
+      64,
+      9
+    ],
+    [
+      73,
+      9
+    ],
+    [
+      68,
+      9
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      171,
+      8
+    ],
+    [
+      162,
+      10
+    ],
+    [
+      189,
+      13
+    ],
+    [
+      50,
+      11
+    ],
+    [
+      37,
+      14
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      124,
+      4
+    ],
+    [
+      108,
+      6
+    ],
+    [
+      71,
+      13
+    ],
+    [
+      104,
+      10
+    ],
+    [
+      181,
+      13
+    ],
+    [
+      13,
+      15
+    ],
+    [
+      145,
+      10
+    ],
+    [
+      67,
+      13
+    ],
+    [
+      47,
+      11
+    ]
+  ],
+  "plan": {
+    "rounds": 2,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_enemies",
+        "k": 31,
+        "details": {
+          "target_set": "enemies"
+        },
+        "edits_applied": 17
+      },
+      {
+        "round": 2,
+        "pattern": "remove_obstacles",
+        "k": 16,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 16
+      }
+    ]
+  }
+}

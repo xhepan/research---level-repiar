@@ -1,0 +1,198 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-826.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3145,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 33
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 36
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      140,
+      13
+    ],
+    [
+      105,
+      13
+    ],
+    [
+      48,
+      15
+    ],
+    [
+      59,
+      15
+    ],
+    [
+      157,
+      11
+    ],
+    [
+      53,
+      15
+    ],
+    [
+      109,
+      11
+    ],
+    [
+      148,
+      15
+    ],
+    [
+      185,
+      15
+    ],
+    [
+      135,
+      13
+    ],
+    [
+      139,
+      13
+    ],
+    [
+      100,
+      13
+    ],
+    [
+      32,
+      15
+    ],
+    [
+      61,
+      15
+    ],
+    [
+      33,
+      15
+    ],
+    [
+      174,
+      15
+    ],
+    [
+      147,
+      11
+    ],
+    [
+      148,
+      11
+    ],
+    [
+      80,
+      15
+    ],
+    [
+      180,
+      15
+    ],
+    [
+      178,
+      15
+    ],
+    [
+      46,
+      15
+    ],
+    [
+      142,
+      13
+    ],
+    [
+      72,
+      15
+    ],
+    [
+      51,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      175,
+      15
+    ],
+    [
+      45,
+      13
+    ],
+    [
+      199,
+      15
+    ],
+    [
+      125,
+      10
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      98,
+      13
+    ],
+    [
+      165,
+      11
+    ],
+    [
+      181,
+      15
+    ],
+    [
+      154,
+      11
+    ],
+    [
+      182,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 4,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 46,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 46,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_obstacles",
+        "k": 36,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 36
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-853.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5802,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 4,
+        "edits": 85
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 4,
+        "edits": 55
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 0
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      151,
+      12
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      196,
+      12
+    ],
+    [
+      197,
+      12
+    ]
+  ]
+}

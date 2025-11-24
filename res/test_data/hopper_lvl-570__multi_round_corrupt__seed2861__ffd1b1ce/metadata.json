@@ -1,0 +1,129 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-570.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2861,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 24
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      94,
+      8
+    ],
+    [
+      187,
+      15
+    ],
+    [
+      114,
+      12
+    ],
+    [
+      131,
+      11
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      46,
+      8
+    ],
+    [
+      38,
+      14
+    ],
+    [
+      55,
+      12
+    ],
+    [
+      27,
+      11
+    ],
+    [
+      40,
+      8
+    ],
+    [
+      105,
+      8
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      138,
+      11
+    ],
+    [
+      56,
+      12
+    ],
+    [
+      160,
+      14
+    ],
+    [
+      120,
+      10
+    ],
+    [
+      124,
+      10
+    ],
+    [
+      91,
+      10
+    ],
+    [
+      116,
+      12
+    ],
+    [
+      165,
+      14
+    ],
+    [
+      151,
+      11
+    ],
+    [
+      6,
+      14
+    ],
+    [
+      104,
+      8
+    ],
+    [
+      47,
+      8
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 24,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 24
+      }
+    ]
+  }
+}

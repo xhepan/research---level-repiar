@@ -1,0 +1,117 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-400.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 1673,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 21
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      129,
+      2
+    ],
+    [
+      130,
+      2
+    ],
+    [
+      131,
+      2
+    ],
+    [
+      132,
+      2
+    ],
+    [
+      133,
+      2
+    ],
+    [
+      134,
+      2
+    ],
+    [
+      135,
+      2
+    ],
+    [
+      136,
+      2
+    ],
+    [
+      85,
+      4
+    ],
+    [
+      160,
+      10
+    ],
+    [
+      187,
+      3
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      39,
+      11
+    ],
+    [
+      85,
+      8
+    ],
+    [
+      138,
+      13
+    ],
+    [
+      142,
+      4
+    ],
+    [
+      121,
+      12
+    ],
+    [
+      134,
+      3
+    ],
+    [
+      193,
+      2
+    ],
+    [
+      195,
+      14
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_run_h",
+        "k": 21,
+        "details": {
+          "run_len": 8
+        },
+        "edits_applied": 21
+      }
+    ]
+  }
+}

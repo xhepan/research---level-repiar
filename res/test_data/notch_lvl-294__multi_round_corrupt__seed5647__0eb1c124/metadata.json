@@ -1,0 +1,167 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-294.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5647,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 85
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 25
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 30
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      175,
+      15
+    ],
+    [
+      82,
+      15
+    ],
+    [
+      189,
+      15
+    ],
+    [
+      178,
+      15
+    ],
+    [
+      179,
+      15
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      187,
+      15
+    ],
+    [
+      53,
+      15
+    ],
+    [
+      182,
+      15
+    ],
+    [
+      141,
+      15
+    ],
+    [
+      157,
+      15
+    ],
+    [
+      156,
+      15
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      198,
+      15
+    ],
+    [
+      170,
+      15
+    ],
+    [
+      83,
+      15
+    ],
+    [
+      176,
+      15
+    ],
+    [
+      154,
+      15
+    ],
+    [
+      45,
+      15
+    ],
+    [
+      161,
+      15
+    ],
+    [
+      81,
+      15
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      180,
+      15
+    ],
+    [
+      160,
+      15
+    ],
+    [
+      172,
+      15
+    ],
+    [
+      159,
+      15
+    ],
+    [
+      168,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      99,
+      15
+    ],
+    [
+      199,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_identical",
+        "k": 30,
+        "details": {
+          "tile": "X"
+        },
+        "edits_applied": 30
+      }
+    ]
+  }
+}

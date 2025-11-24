@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-139.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5612,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 46
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 32
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 5,
+        "edits": 80
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      148,
+      14
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

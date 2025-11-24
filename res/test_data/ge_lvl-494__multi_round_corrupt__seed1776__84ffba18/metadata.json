@@ -1,0 +1,121 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-494.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 1776,
+  "attempts_tried": 1,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 1,
+        "edits": 22
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      153,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      170,
+      15
+    ],
+    [
+      162,
+      15
+    ],
+    [
+      55,
+      15
+    ],
+    [
+      66,
+      12
+    ],
+    [
+      88,
+      15
+    ],
+    [
+      124,
+      11
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      175,
+      15
+    ],
+    [
+      72,
+      15
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      79,
+      15
+    ],
+    [
+      138,
+      13
+    ],
+    [
+      187,
+      15
+    ],
+    [
+      159,
+      12
+    ],
+    [
+      67,
+      12
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      139,
+      13
+    ],
+    [
+      26,
+      14
+    ],
+    [
+      19,
+      13
+    ],
+    [
+      46,
+      15
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_obstacles",
+        "k": 22,
+        "details": {
+          "target_set": "obstacles"
+        },
+        "edits_applied": 22
+      }
+    ]
+  }
+}

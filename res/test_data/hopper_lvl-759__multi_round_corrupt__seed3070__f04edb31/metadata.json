@@ -1,0 +1,216 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-759.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 3070,
+  "attempts_tried": 2,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 81
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 3,
+        "edits": 41
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      168,
+      8
+    ],
+    [
+      29,
+      4
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      59,
+      12
+    ],
+    [
+      199,
+      0
+    ],
+    [
+      92,
+      7
+    ],
+    [
+      111,
+      10
+    ],
+    [
+      47,
+      12
+    ],
+    [
+      54,
+      9
+    ],
+    [
+      94,
+      8
+    ],
+    [
+      117,
+      8
+    ],
+    [
+      162,
+      3
+    ],
+    [
+      142,
+      2
+    ],
+    [
+      143,
+      4
+    ],
+    [
+      80,
+      10
+    ],
+    [
+      56,
+      13
+    ],
+    [
+      195,
+      12
+    ],
+    [
+      185,
+      11
+    ],
+    [
+      32,
+      13
+    ],
+    [
+      64,
+      9
+    ],
+    [
+      38,
+      14
+    ],
+    [
+      128,
+      2
+    ],
+    [
+      34,
+      8
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      140,
+      3
+    ],
+    [
+      155,
+      3
+    ],
+    [
+      193,
+      15
+    ],
+    [
+      169,
+      15
+    ],
+    [
+      164,
+      3
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      160,
+      7
+    ],
+    [
+      183,
+      1
+    ],
+    [
+      13,
+      11
+    ],
+    [
+      147,
+      10
+    ],
+    [
+      179,
+      4
+    ],
+    [
+      25,
+      13
+    ],
+    [
+      85,
+      1
+    ],
+    [
+      80,
+      15
+    ],
+    [
+      183,
+      4
+    ],
+    [
+      98,
+      12
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 25,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 42,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_random",
+        "k": 41,
+        "details": {},
+        "edits_applied": 41
+      }
+    ]
+  }
+}

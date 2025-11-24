@@ -1,0 +1,129 @@
+{
+  "source_file": "all_valid_levels\\hopper_lvl-380.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 2650,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 3,
+        "edits": 76
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 146
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 21
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      53,
+      14
+    ],
+    [
+      29,
+      1
+    ],
+    [
+      39,
+      11
+    ],
+    [
+      141,
+      1
+    ],
+    [
+      60,
+      1
+    ],
+    [
+      139,
+      2
+    ],
+    [
+      190,
+      2
+    ],
+    [
+      197,
+      0
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      17,
+      8
+    ],
+    [
+      153,
+      14
+    ],
+    [
+      176,
+      2
+    ],
+    [
+      82,
+      2
+    ],
+    [
+      117,
+      8
+    ],
+    [
+      155,
+      3
+    ],
+    [
+      123,
+      8
+    ],
+    [
+      82,
+      5
+    ],
+    [
+      197,
+      10
+    ],
+    [
+      95,
+      5
+    ],
+    [
+      78,
+      14
+    ],
+    [
+      70,
+      3
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "remove_random",
+        "k": 21,
+        "details": {},
+        "edits_applied": 21
+      }
+    ]
+  }
+}

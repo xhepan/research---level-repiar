@@ -1,0 +1,85 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-128.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 1370,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 142
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 1,
+        "edits": 22
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 1,
+        "edits": 0
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      130,
+      11
+    ],
+    [
+      194,
+      9
+    ],
+    [
+      194,
+      10
+    ],
+    [
+      194,
+      11
+    ],
+    [
+      194,
+      12
+    ],
+    [
+      194,
+      13
+    ],
+    [
+      194,
+      15
+    ],
+    [
+      195,
+      13
+    ],
+    [
+      195,
+      15
+    ],
+    [
+      196,
+      13
+    ],
+    [
+      196,
+      15
+    ],
+    [
+      197,
+      13
+    ],
+    [
+      197,
+      15
+    ]
+  ]
+}

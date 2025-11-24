@@ -1,0 +1,252 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-578.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 5726,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 79
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 75
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 4,
+        "edits": 46
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      82,
+      2
+    ],
+    [
+      83,
+      2
+    ],
+    [
+      84,
+      2
+    ],
+    [
+      85,
+      2
+    ],
+    [
+      86,
+      2
+    ],
+    [
+      87,
+      2
+    ],
+    [
+      88,
+      2
+    ],
+    [
+      89,
+      2
+    ],
+    [
+      90,
+      2
+    ],
+    [
+      91,
+      2
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      96,
+      2
+    ],
+    [
+      154,
+      3
+    ],
+    [
+      124,
+      3
+    ],
+    [
+      91,
+      1
+    ],
+    [
+      147,
+      4
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      118,
+      11
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      185,
+      3
+    ],
+    [
+      109,
+      2
+    ],
+    [
+      198,
+      15
+    ],
+    [
+      92,
+      12
+    ],
+    [
+      191,
+      12
+    ],
+    [
+      91,
+      7
+    ],
+    [
+      184,
+      14
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      110,
+      2
+    ],
+    [
+      13,
+      2
+    ],
+    [
+      178,
+      9
+    ],
+    [
+      110,
+      11
+    ],
+    [
+      171,
+      7
+    ],
+    [
+      42,
+      7
+    ],
+    [
+      30,
+      11
+    ],
+    [
+      54,
+      3
+    ],
+    [
+      45,
+      11
+    ],
+    [
+      196,
+      6
+    ],
+    [
+      146,
+      12
+    ],
+    [
+      128,
+      3
+    ],
+    [
+      61,
+      4
+    ],
+    [
+      194,
+      8
+    ],
+    [
+      141,
+      8
+    ],
+    [
+      185,
+      13
+    ],
+    [
+      181,
+      12
+    ],
+    [
+      77,
+      5
+    ],
+    [
+      153,
+      1
+    ]
+  ],
+  "plan": {
+    "rounds": 5,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 46,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 41,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_run_h",
+        "k": 24,
+        "details": {
+          "run_len": 10
+        },
+        "edits_applied": 24
+      },
+      {
+        "round": 4,
+        "pattern": "remove_random",
+        "k": 22,
+        "details": {},
+        "edits_applied": 22
+      }
+    ]
+  }
+}

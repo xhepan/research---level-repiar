@@ -1,0 +1,53 @@
+{
+  "source_file": "all_valid_levels\\notch_lvl-704.txt",
+  "operator": "op_remove_or_move_F",
+  "severity": 1,
+  "seed": 5762,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 5,
+        "edits": 147
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 5,
+        "edits": 70
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 2,
+        "edits": 58
+      }
+    }
+  ],
+  "op": "remove_or_move_F",
+  "changed": [
+    [
+      145,
+      14
+    ],
+    [
+      194,
+      14
+    ],
+    [
+      195,
+      14
+    ],
+    [
+      196,
+      14
+    ],
+    [
+      197,
+      14
+    ]
+  ]
+}

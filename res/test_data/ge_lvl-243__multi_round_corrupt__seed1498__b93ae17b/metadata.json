@@ -1,0 +1,214 @@
+{
+  "source_file": "all_valid_levels\\ge_lvl-243.txt",
+  "operator": "multi_round_corrupt",
+  "severity": null,
+  "seed": 1498,
+  "attempts_tried": 3,
+  "attempt_summaries": [
+    {
+      "attempt": 1,
+      "summary": {
+        "rounds": 2,
+        "edits": 85
+      }
+    },
+    {
+      "attempt": 2,
+      "summary": {
+        "rounds": 2,
+        "edits": 33
+      }
+    },
+    {
+      "attempt": 3,
+      "summary": {
+        "rounds": 3,
+        "edits": 38
+      }
+    }
+  ],
+  "op": "multi_round_corrupt",
+  "changed": [
+    [
+      109,
+      15
+    ],
+    [
+      23,
+      15
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      24,
+      15
+    ],
+    [
+      37,
+      15
+    ],
+    [
+      130,
+      15
+    ],
+    [
+      14,
+      15
+    ],
+    [
+      83,
+      15
+    ],
+    [
+      151,
+      15
+    ],
+    [
+      7,
+      15
+    ],
+    [
+      34,
+      15
+    ],
+    [
+      112,
+      15
+    ],
+    [
+      29,
+      15
+    ],
+    [
+      192,
+      15
+    ],
+    [
+      27,
+      15
+    ],
+    [
+      186,
+      15
+    ],
+    [
+      133,
+      15
+    ],
+    [
+      147,
+      15
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      92,
+      15
+    ],
+    [
+      152,
+      15
+    ],
+    [
+      193,
+      15
+    ],
+    [
+      191,
+      15
+    ],
+    [
+      3,
+      15
+    ],
+    [
+      132,
+      15
+    ],
+    [
+      175,
+      15
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      140,
+      15
+    ],
+    [
+      141,
+      15
+    ],
+    [
+      189,
+      15
+    ],
+    [
+      155,
+      15
+    ],
+    [
+      199,
+      15
+    ],
+    [
+      86,
+      15
+    ],
+    [
+      137,
+      15
+    ],
+    [
+      143,
+      15
+    ],
+    [
+      150,
+      15
+    ],
+    [
+      130,
+      11
+    ],
+    [
+      128,
+      11
+    ]
+  ],
+  "plan": {
+    "rounds": 3,
+    "per_round": [
+      {
+        "round": 1,
+        "pattern": "add_low_ceiling_run",
+        "k": 50,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 2,
+        "pattern": "add_low_ceiling_run",
+        "k": 40,
+        "details": {},
+        "edits_applied": 0
+      },
+      {
+        "round": 3,
+        "pattern": "remove_identical",
+        "k": 36,
+        "details": {
+          "tile": "X",
+          "flag_nudged": true
+        },
+        "edits_applied": 36
+      }
+    ]
+  }
+}
